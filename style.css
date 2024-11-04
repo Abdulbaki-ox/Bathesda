@@ -6,14 +6,14 @@ body{
 }
 
 .text-primary{
-    color: #C45050!important;
+    color: #358ae7!important;
 }
 .bg-primary{
-    background: #C45050!important;
+    background: #358ae7!important;
 }
 
 a:hover{
-    color: #e19d9d!important;
+    color: #1c4a7c!important;
 }
 
 .icon{
@@ -22,7 +22,7 @@ a:hover{
 
 
 .live-stream{
-    background-color: #C45050;
+    background-color: #358ae7;
     color: white;
 }
 
@@ -76,7 +76,7 @@ a:hover{
 
 
 .carousel-button:hover {
-    background-color: #C45050;
+    background-color: #358ae7;
 }
 
 
@@ -87,9 +87,6 @@ a:hover{
 .img-bg{
     background-image: url(/images/carousel-footer-blurr.png);
 }
-
-
-
 
 
 
@@ -122,7 +119,7 @@ a:hover{
 .the-buttons{
     background-color: white;
     border: none;
-    color: #C45050;
+    color: #358ae7;
    padding: 1rem 3rem;
    margin: .2rem 0rem;
    min-width: 15rem;
@@ -144,23 +141,14 @@ a:hover{
 }
 
 .the-buttons:hover{
-    background-color: #C45050;
+    background-color: #358ae7;
     border: none;
     color: #fff;
 
 }
 .a_btn{
     text-decoration: none;
-    color: #C45050;
-}
-
-.a_custom{
-    text-decoration: none;
-    color: #737373;
-}
-.a_btn{
-    text-decoration: none;
-    color: #C45050;
+    color: #358ae7;
 }
 
 .a_custom{
@@ -180,7 +168,7 @@ a:hover{
 }
 
 .church-welcome{
-    color: #C45050;
+    color: #358ae7;
 }
 
 .sermon-thumbnails{
@@ -198,7 +186,7 @@ box-shadow: none;
 .input{
     font-size: 18px;
     width: 60%;
-    border: 1px solid #C45050;
+    border: 1px solid #358ae7;
     border-radius: 5px;
     padding: 15px 20px;
     margin-right: 10px;
@@ -212,7 +200,7 @@ box-shadow: none;
     border: none;
     border-radius: 5px;
     padding: 15px 20px;
-    background: #C45050;
+    background: #358ae7;
 }
 
 .sub-container{
@@ -226,12 +214,12 @@ box-shadow: none;
 }
 
 .custom-hero{
-    background-image: url(../Bathesda-main/images/IMG-20241024-WA0026.jpg);
+    background-image: url(./images/IMG-20241024-WA0026.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
-    height: 75vh;
+    height: 50vh;
     /* width: 75vh; */
     text-align: center;
     /* align-items: center; */
@@ -239,12 +227,12 @@ box-shadow: none;
 }
 
 .administration-hero{
-    background-image: url(../Bathesda-main/images/IMG-20241024-WA0023.jpg);
+    background-image: url(./images/IMG-20241024-WA0023.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
-    height: 140vh;
+    height: 50vh;
     /* width: 75vh; */
     text-align: center;
     /* align-items: center; */
@@ -252,12 +240,12 @@ box-shadow: none;
 }
 
 .media-hero{
-    background-image: url(../Bathesda-main/images/IMG-20241024-WA0034.jpg);
+    background-image: url(./images/IMG-20241024-WA0034.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
-    height: 140vh;
+    height: 50vh;
     /* width: 75vh; */
     text-align: center;
     /* align-items: center; */
@@ -265,12 +253,12 @@ box-shadow: none;
 }
 
 .registration-hero{
-    background-image: url(../Bathesda-main/images/IMG-20241024-WA0014.jpg);
+    background-image: url(./images/IMG-20241024-WA0014.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
-    height: 140vh;
+    height: 50vh;
     /* width: 75vh; */
     text-align: center;
     /* align-items: center; */
@@ -345,6 +333,10 @@ box-shadow: none;
 
 
 #sermons{
+   
+    min-height: 75vh;
+}
+#Ministries{
     background-color: #fff;
     min-height: 75vh;
 }
@@ -359,7 +351,7 @@ box-shadow: none;
 .img-bishop{
     width: 50%;
     height: auto;
-    border-radius: 143px;
+    border-radius: 40px;
     object-fit: cover;
 }
 
@@ -391,7 +383,7 @@ box-shadow: none;
     margin-top: 1rem;
     font-size: 16px;
     font-weight: 600;
-    color: #C45050;
+    color: #358ae7;
 }
 
 .sermon-p{
@@ -414,7 +406,7 @@ box-shadow: none;
 }
 
 .sermon-date{
-    background-color: #C45050;
+    background-color: #358ae7;
     position: absolute;
     top: 0px;
     height: 40px;
@@ -425,7 +417,7 @@ box-shadow: none;
 }
 
 .design-background{
-    background: #C45050;
+    background: #358ae7;
     background-image: url(/images/4.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -446,7 +438,7 @@ box-shadow: none;
 }
 .devotion-link{
     text-decoration: none;
-    color: #C45050;
+    color: #358ae7;
 }
 
 .contact-form{
