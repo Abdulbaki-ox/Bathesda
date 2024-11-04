@@ -91,6 +91,9 @@ a:hover{
 
 
 
+
+
+
 #overlaying-section{
     position: absolute;
     bottom: 0;
@@ -145,6 +148,15 @@ a:hover{
     border: none;
     color: #fff;
 
+}
+.a_btn{
+    text-decoration: none;
+    color: #C45050;
+}
+
+.a_custom{
+    text-decoration: none;
+    color: #737373;
 }
 .a_btn{
     text-decoration: none;
