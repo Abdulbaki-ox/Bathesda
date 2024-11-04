@@ -43,7 +43,8 @@ a:hover{
 
 .c-item img.c-img {
     height: 98vh;
-    object-fit: cover; /* Ensures the image covers the container without stretching */
+    padding-top: 50px;
+    object-fit: fill; /* Ensures the image covers the container without stretching */
     filter: brightness(0.7);
 }
 
@@ -87,6 +88,9 @@ a:hover{
     background-image: url(/images/carousel-footer-blurr.png);
 }
 
+
+
+
 #overlaying-section{
     position: absolute;
     bottom: 0;
@@ -126,11 +130,30 @@ a:hover{
 
 }
 
+.p-2 h5{
+    font-weight: 700;
+
+}
+
+.jesus-container p{
+    font-size: 15px;
+
+}
+
 .the-buttons:hover{
     background-color: #C45050;
     border: none;
     color: #fff;
 
+}
+.a_btn{
+    text-decoration: none;
+    color: #C45050;
+}
+
+.a_custom{
+    text-decoration: none;
+    color: #737373;
 }
 
 .span-btn{
@@ -190,6 +213,105 @@ box-shadow: none;
     
 }
 
+.custom-hero{
+    background-image: url(../Bathesda-main/images/IMG-20241024-WA0026.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 75vh;
+    /* width: 75vh; */
+    text-align: center;
+    /* align-items: center; */
+    
+}
+
+.administration-hero{
+    background-image: url(../Bathesda-main/images/IMG-20241024-WA0023.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 140vh;
+    /* width: 75vh; */
+    text-align: center;
+    /* align-items: center; */
+    
+}
+
+.media-hero{
+    background-image: url(../Bathesda-main/images/IMG-20241024-WA0034.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 140vh;
+    /* width: 75vh; */
+    text-align: center;
+    /* align-items: center; */
+    
+}
+
+.registration-hero{
+    background-image: url(../Bathesda-main/images/IMG-20241024-WA0014.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 140vh;
+    /* width: 75vh; */
+    text-align: center;
+    /* align-items: center; */
+    
+}
+
+.custom-hero h1{
+    padding-top: 20%;
+    /* margin-left: 40%; */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.media-hero h1{
+    padding-top: 35%;
+    /* margin-left: 40%; */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.administration-hero h1{
+    padding-top: 20%;
+    /* margin-left: 40%; */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+.registration-hero h1{
+    padding-top: 35%;
+    /* margin-left: 40%; */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.custom-color{
+    background-color: #E1EBF4;
+}
+
+@media (max-width: 760px) {
+    .custom-hero{
+        padding-top: 40%;
+    }
+  }
+
 .box{
     text-align: center;
     background-color: rgba(225, 235, 244, 0.2); /* Equivalent to #E1EBF433 */
@@ -219,6 +341,13 @@ box-shadow: none;
     width: 100%;
     height: auto;
     border-radius: 15px;
+    object-fit: cover;
+}
+
+.img-bishop{
+    width: 50%;
+    height: auto;
+    border-radius: 143px;
     object-fit: cover;
 }
 
@@ -373,4 +502,24 @@ a{
 
 .bg-body-orange{
     background: #FFF6ED;
+}
+
+.feature{
+    position: relative;
+}
+.purchase_audio{
+    position: absolute;
+    bottom: 30%;
+}
+
+.gallary-img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.logo{
+    width: auto;
+    height: 50px;
 }
